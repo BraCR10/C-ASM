@@ -47,5 +47,5 @@ int main() {
 
     printf("long double:\n");
     printf("  Con signo: %.3Le a %.3Le\n", LDBL_MIN, LDBL_MAX);
-    printf("  Sin signo:  0 a %.3Le \n", LDBL_MAX);
+    printf("  Sin signo:  0 a %.3Le \n\n\n", LDBL_MAX);
 }

@@ -10,7 +10,7 @@ int main(void)
       int     value1, value2, value3;
       int     min, max;
       extern  void min_max (int, int, int, int*, int*);
-
+      printf("Running min_max function\n");
       printf("Enter number 1 = ");
       scanf("%d", &value1);
       printf("Enter number 2 = ");
@@ -19,6 +19,6 @@ int main(void)
       scanf("%d", &value3);
 
       min_max(value1, value2, value3, &min, &max);
-      printf("Minimum = %d, Maximum = %d\n", min, max);
+      printf("Minimum = %d, Maximum = %d\n\n", min, max);
       return 0;
 }

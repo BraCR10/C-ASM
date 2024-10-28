@@ -7,12 +7,13 @@
 
 int main(void)
 {
-        int    x = 1, y = 1;
+        int    x = 80, y = 15;
         int    value;
         extern int test1 (int, int, int);
 
         value = test1(x, y, 5);
-        printf("Result = %d\n", value);
+        printf("Running test1(%d, %d, 5)\n", x, y);
+        printf("Result = %d\n\n\n", value);
 	
         return 0;
 }
